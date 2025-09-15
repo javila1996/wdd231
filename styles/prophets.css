@@ -1,0 +1,58 @@
+/* Basic body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #2b4162;
+    color: #f5f0f6;
+    padding: 1rem;
+    font-family: 'Georgia', serif;
+}
+
+/* Cards container */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+/* Individual card */
+.prophet-card {
+    background-color: #385f71;
+    color: #f5f0f6;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.prophet-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+}
+
+.prophet-card h2 {
+    font-family: 'Georgia', serif;
+    color: #ffd700;
+    margin-bottom: 0.5rem;
+}
+
+.prophet-card p {
+    font-family: 'Arial', sans-serif;
+    margin: 0.25rem 0;
+}
+
+.prophet-card img {
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Leicester Tech Solutions",
+      "address": "123 Innovation Park, Leicester, UK",
+      "phone": "+44 1234 567890",
+      "website": "https://leicestertech.co.uk",
+      "image": "Leicester Tech.jpg",
+      "membership": 3,
+      "description": "Leading IT and software services provider in Leicester."
+    },
+    {
+      "name": "GreenLeaf Cafe",
+      "address": "45 Market Street, Leicester, UK",
+      "phone": "+44 9876 543210",
+      "website": "https://greenleafcafe.co.uk",
+      "image": "GreenLeaf Cafe.jpg",
+      "membership": 2,
+      "description": "Sustainable coffee and vegan food in the heart of Leicester."
+    },
+    {
+      "name": "Smith & Co Accounting",
+      "address": "10 High Street, Leicester, UK",
+      "phone": "+44 1111 222333",
+      "website": "https://smithaccounting.com",
+      "image": "Smith $ Co Accounting.jpg",
+      "membership": 1,
+      "description": "Trusted financial and accounting services."
+    },
+    {
+      "name": "Royal Fitness Gym",
+      "address": "78 King Road, Leicester, UK",
+      "phone": "+44 4444 555666",
+      "website": "https://royalfitness.co.uk",
+      "image": "Royal Fitness.jpg",
+      "membership": 2,
+      "description": "Modern fitness center with personal training."
+    },
+    {
+      "name": "Bright Future Education",
+      "address": "25 College Lane, Leicester, UK",
+      "phone": "+44 7777 888999",
+      "website": "https://brightfutureedu.org",
+      "image": "Bright Future Education.jpg",
+      "membership": 3,
+      "description": "Tutoring and learning resources for all ages."
+    },
+    {
+      "name": "Midlands Motors",
+      "address": "200 Car Avenue, Leicester, UK",
+      "phone": "+44 5555 444333",
+      "website": "https://midlandsmotors.co.uk",
+      "image": "Midlands Motors.jpg",
+      "membership": 1,
+      "description": "Reliable used cars and auto repair services."
+    },
+    {
+      "name": "CityStyle Clothing",
+      "address": "12 Fashion Street, Leicester, UK",
+      "phone": "+44 6666 777888",
+      "website": "https://citystyleclothing.co.uk",
+      "image": "CityStyle Clothing.jpg",
+      "membership": 2,
+      "description": "Trendy clothing boutique with local designs."
+    }
+  ]
+  

@@ -4,14 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leicester Chamber of Commerce | Home Page</title>
-  <meta name="author" content="Josue Avila">
   <link rel="stylesheet" href="./styles/index.css">
   <link rel="icon" href="./images/chamberfavico.ico">
-  <meta property="og:title" content="Josue Avila - Chamber Home - WDD231">
+
+  <meta name="description" content="Leicester Chamber of Commerce connects businesses, fosters growth, and builds community through events and networking.">
+  <meta name="author" content="Josue Avila">
+
+  <meta property="og:title" content="Leicester Chamber of Commerce | Home Page">
   <meta property="og:description" content="Connecting businesses, fostering growth, and building community in Leicester.">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://javila1996.github.io/wdd231/chamber/index.html">
-
-
+  <meta property="og:image" content="https://javila1996.github.io/wdd231/chamber/images/leicester-hero.jpg">
+  <meta property="og:site_name" content="Leicester Chamber of Commerce">
 </head>
 <body>
   <header>
@@ -19,7 +23,7 @@
       <img src="./images/chamberfavico.ico" alt="Leicester Chamber of Commerce Logo">
       <h1>Leicester Chamber of Commerce</h1>
     </div>
-    <nav>
+    <nav aria-label="Main Navigation">
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="directory.html">Directory</a></li>
@@ -27,12 +31,12 @@
         <li><a href="discover.html">Discover</a></li>
       </ul>
     </nav>
-    <button id="darkmode-toggle">🌙</button>
+    <button id="darkmode-toggle" aria-label="Toggle dark mode">🌙</button>
   </header>
 
   <main>
     <section class="hero">
-      <img src="./images/leicester-hero.jpg" alt="City of Leicester" class="hero-image">
+      <img src="./images/leicester-hero.jpg" alt="Skyline of Leicester with historic buildings" class="hero-image">
       <div class="hero-text">
         <h2>Welcome to the Leicester Chamber of Commerce</h2>
         <p>Connecting businesses, fostering growth, and building community.</p>
@@ -46,11 +50,11 @@
       <ul>
         <li>
           <h3>Business Networking Night</h3>
-          <p>October 15, 2025  Leicester Town Hall</p>
+          <p>October 15, 2025 — Leicester Town Hall</p>
         </li>
         <li>
           <h3>Small Business Workshop</h3>
-          <p>November 3, 2025  Innovation Hub</p>
+          <p>November 3, 2025 — Innovation Hub</p>
         </li>
       </ul>
     </section>
@@ -64,20 +68,32 @@
     <!-- Member Spotlights -->
     <section class="spotlights">
       <h2>Member Spotlights</h2>
-      <div class="spotlight-grid"></div>
+      <div class="spotlight-grid">
+        <div class="spotlight">
+          <img src="./images/member1.jpg" alt="Profile of Member Name">
+          <h3>Member Name</h3>
+        </div>
+      </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <div class="footer-info">
       <h3>Leicester Chamber of Commerce</h3>
       <p>10 High Street<br>Leicester, UK LE1</p>
-      <p>Email: info@leicestercc.org<br>Phone: +44 1234 567890</p>
+      <p>Email: <a href="mailto:info@leicestercc.org">info@leicestercc.org</a><br>Phone: +44 1234 567890</p>
     </div>
     <div class="footer-social">
-      <a href="#"><img src="./images/github-logo.png" alt="GitHub"></a>
-      <a href="#"><img src="./images/linkedin-logo.png" alt="LinkedIn"></a>
-      <a href="#"><img src="./images/x-logo.png" alt="X"></a>
+      <a href="https://github.com/leicestercc" aria-label="Visit our GitHub">
+        <img src="./images/github-logo.png" alt="GitHub">
+      </a>
+      <a href="https://linkedin.com/leicestercc" aria-label="Visit our LinkedIn">
+        <img src="./images/linkedin-logo.png" alt="LinkedIn">
+      </a>
+      <a href="https://x.com/leicestercc" aria-label="Visit our X profile">
+        <img src="./images/x-logo.png" alt="X (formerly Twitter)">
+      </a>
     </div>
     <div class="footer-note">
       <p>WDD231 Class Project<br>© <span id="year"></span> Leicester Chamber of Commerce</p>
@@ -86,11 +102,11 @@
   </footer>
 
   <script src="./scripts/index.js"></script>
-  <script></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
     document.getElementById("lastModified").textContent = document.lastModified;
   </script>
 </body>
 </html>
+
 

@@ -1,0 +1,63 @@
+[
+    {
+      "company": "Leicester Tech Solutions",
+      "logo": "./images/Leicester Tech.jpg",
+      "phone": "+44 1234 567891",
+      "address": "12 Tech Street, Leicester",
+      "website": "https://leicestershiretech.com",
+      "membership": "Gold"
+    },
+    {
+      "company": "GreenLeaf Cafe",
+      "logo": "./images/GreenLeaf Cafe.jpg",
+      "phone": "+44 1234 567892",
+      "address": "34 High Street, Leicester",
+      "website": "https://greenleafcafe.co.uk",
+      "membership": "Silver"
+    },
+    {
+      "company": "Smith & Co. Accounting",
+      "logo": "./images/Smith $ Co Accounting.jpg",
+      "phone": "+44 1234 567893",
+      "address": "56 Finance Ave, Leicester",
+      "website": "https://smithco.uk",
+      "membership": "Gold"
+    },
+    {
+      "company": "Royal Fitness Gym",
+      "logo": "./images/Royal Fitness.jpg",
+      "phone": "+44 4444 555666",
+      "address": "78 King Road, Leicester, UK",
+      "website": "https://royalfitness.co.uk",
+      "membership": "Silver",
+      "description": "Modern fitness center with personal training."
+    },
+    {
+      "company": "Bright Future Education",
+      "logo": "./images/Bright Future Education.jpg",
+      "phone": "+44 7777 888999",
+      "address": "25 College Lane, Leicester, UK",
+      "website": "https://brightfutureedu.org",
+      "membership": "Gold",
+      "description": "Tutoring and learning resources for all ages."
+    },
+    {
+      "company": "Midlands Motors",
+      "logo": "./images/Midlands Motors.jpg",
+      "phone": "+44 5555 444333",
+      "address": "200 Car Avenue, Leicester, UK",
+      "website": "https://midlandsmotors.co.uk",
+      "membership": "Bronze",
+      "description": "Reliable used cars and auto repair services."
+    },
+    {
+      "company": "CityStyle Clothing",
+      "logo": "./images/CityStyle Clothing.jpg",
+      "phone": "+44 6666 777888",
+      "address": "12 Fashion Street, Leicester, UK",
+      "website": "https://citystyleclothing.co.uk",
+      "membership": "Silver",
+      "description": "Trendy clothing boutique with local designs."
+    }
+  ]
+  

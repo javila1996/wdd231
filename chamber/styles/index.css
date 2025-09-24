@@ -19,7 +19,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -58,12 +57,10 @@ nav ul li a.active {
     color: var(--accent);
 }
 
-/* Main */
 main {
     padding: 1rem 1.5rem;
 }
 
-/* Hero */
 .hero {
     position: relative;
     text-align: center;
@@ -145,7 +142,6 @@ main {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* Footer */
 footer {
     background-color: var(--dark-gray);
     color: var(--secondary);

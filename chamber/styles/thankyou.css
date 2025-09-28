@@ -1,0 +1,176 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--secondary);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header .logo h1 {
+    font-size: 1.5rem;
+    color: var(--accent1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+nav ul li a.active {
+    color: var(--accent2);
+}
+
+nav ul li a.active::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: var(--accent2);
+    border-radius: 2px;
+    margin-top: 4px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: var(--accent1);
+    color: var(--secondary);
+    outline: none;
+}
+
+nav ul li a:focus-visible {
+    outline: 2px dashed var(--accent2);
+    outline-offset: 3px;
+}
+
+footer {
+    background-color: var(--dark-gray);
+    color: var(--secondary);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+footer a img {
+    width: 30px;
+    margin-right: 0.5rem;
+}
+
+.footer-note {
+    grid-column: 1 / -1;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    border-top: 1px solid var(--secondary);
+    padding-top: 0.5rem;
+}
+
+.thankyou-message {
+    background-color: #F5F0F6;
+    color: #2B4162;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 5rem auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.thankyou-message h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2B4162;
+}
+
+.thankyou-message p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+#submitted-data h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #385F71;
+}
+
+#submitted-data ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1rem;
+}
+
+#submitted-data ul li {
+    margin-bottom: 0.5rem;
+    color: #2B4162;
+}
+
+.thankyou-message a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #2B4162;
+    color: #F5F0F6;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.thankyou-message a:hover,
+.thankyou-message a:focus {
+    background-color: #385F71;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .thankyou-message {
+        margin: 3rem 1rem;
+        padding: 1.5rem;
+    }
+
+    .thankyou-message h2 {
+        font-size: 1.8rem;
+    }
+
+    #submitted-data h3 {
+        font-size: 1.2rem;
+    }
+
+    #submitted-data ul li {
+        font-size: 0.95rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 0.75rem 1rem;
+    }
+}

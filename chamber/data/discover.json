@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Leicester Cathedral",
+      "address": "21 St Martins, Leicester LE1 5DE",
+      "description": "Historic cathedral known for its beautiful architecture and as the resting place of King Richard III.",
+      "image": "./images/cathedral.webp"
+    },
+    {
+      "name": "King Richard III Visitor Centre",
+      "address": "4A St Martins, Leicester LE1 5DB",
+      "description": "Interactive museum dedicated to the life, death, and discovery of King Richard III.",
+      "image": "./images/richard.webp"
+    },
+    {
+      "name": "Abbey Park",
+      "address": "Abbey Park Rd, Leicester LE4 5AQ",
+      "description": "Expansive park featuring gardens, boating lake, and playgrounds.",
+      "image": "./images/abbey-park.webp"
+    },
+    {
+      "name": "National Space Centre",
+      "address": "Exploration Dr, Leicester LE4 5NS",
+      "description": "Award-winning attraction dedicated to space exploration and science.",
+      "image": "./images/space-centre.webp"
+    },
+    {
+      "name": "New Walk Museum",
+      "address": "53 New Walk, Leicester LE1 7EA",
+      "description": "Art and natural history museum with dinosaur skeletons and rotating exhibits.",
+      "image": "./images/new-walk.webp"
+    },
+    {
+      "name": "Curve Theatre",
+      "address": "60 Rutland St, Leicester LE1 1SB",
+      "description": "Modern performing arts venue hosting musicals, plays, and community events.",
+      "image": "./images/curve.webp"
+    },
+    {
+      "name": "Highcross Shopping Centre",
+      "address": "5 Shires Ln, Leicester LE1 4AN",
+      "description": "Leicester’s top destination for shopping, dining, and entertainment.",
+      "image": "./images/highcross.webp"
+    },
+    {
+      "name": "Victoria Park",
+      "address": "Granville Rd, Leicester LE1 7RU",
+      "description": "Large open parkland, ideal for walking, running, and relaxing outdoors.",
+      "image": "./images/victoria-park.webp"
+    }
+  ]
+  

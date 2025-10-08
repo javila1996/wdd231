@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leicester Chamber of Commerce | Discover</title>
+  <link rel="stylesheet" href="./styles/discover.css">
+  <link rel="icon" href="./images/chamberfavico.ico">
+
+  <meta name="description" content="Leicester Chamber of Commerce connects businesses, fosters growth, and builds community through events and networking.">
+  <meta name="author" content="Josue Avila">
+
+  <meta property="og:title" content="Leicester Chamber of Commerce | Discover">
+  <meta property="og:description" content="Connecting businesses, fostering growth, and building community in Leicester.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://javila1996.github.io/wdd231/chamber/discover.html">
+  <meta property="og:image" content="https://javila1996.github.io/wdd231/chamber/images/leicester-hero.jpg">
+  <meta property="og:site_name" content="Leicester Chamber of Commerce">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+        <img src="./images/chamberfavico.ico" alt="Leicester Chamber of Commerce Logo">
+        <h1>Leicester Chamber of Commerce</h1>
+      </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html" class="active">Discover</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="discover-page">
+    <section class="intro">
+      <h1>Discover Leicester</h1>
+      <p>Explore some of the best attractions and landmarks that make Leicester a great place to live, work, and visit.</p>
+      <div id="visit-message" class="visit-msg" role="status" aria-live="polite"></div>
+    </section>
+
+    <section id="cards-grid" class="cards-grid" aria-label="Discover Leicester attractions">
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-info">
+      <h3>Leicester Chamber of Commerce</h3>
+      <p>10 High Street<br>Leicester, UK LE1</p>
+      <p>Email: info@leicestercc.org<br>Phone: +44 1234 567890</p>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="./images/github-logo.png" alt="GitHub"></a>
+      <a href="#"><img src="./images/linkedin-logo.png" alt="LinkedIn"></a>
+      <a href="#"><img src="./images/x-logo.png" alt="X"></a>
+    </div>
+    <div class="footer-note">
+      <p>WDD231 Class Project<br>© <span id="year"></span> Leicester Chamber of Commerce</p>
+      <p>Last Modified: <span id="lastModified"></span></p>
+    </div>
+  </footer>
+
+  <script src="./scripts/discover.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@600;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgb(2, 104, 180);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: rgb(255, 210, 87);
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid rgb(76, 201, 243);
+  border-radius: 8px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(2, 104, 180);
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(250, 163, 44);
+  margin-top: 1rem;
+}
+
+p, li {
+  font-size: 1rem;
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.wireframe-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.wireframe-container img {
+  width: 45%;
+  max-width: 400px;
+  border: 2px solid rgb(76, 201, 243);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.wireframe-container img:hover {
+  transform: scale(1.03);
+  border-color: rgb(250, 163, 44);
+}
+
+footer {
+  background-color: rgb(2, 104, 180);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 640px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .wireframe-container img {
+    width: 90%;
+  }
+}
+
+  

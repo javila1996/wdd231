@@ -1,9 +1,8 @@
-
 :root {
     --primary: rgb(2, 104, 180);
     --secondary: rgb(76, 201, 243);
     --accent1: rgb(250, 163, 44);
-    --accent2: rgb(255, 210, 87);
+    --accent2: rgb(230, 178, 58);
     --accent3: rgb(207, 25, 32);
     --text: #333;
     --bg: #fff;
@@ -126,6 +125,7 @@
     background: var(--accent2);
   }
   
+  /* General Button */
   .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -218,6 +218,7 @@
     background: var(--accent2);
   }
   
+  /* Footer */
   footer {
     background: var(--primary);
     color: var(--bg);
@@ -226,6 +227,7 @@
     font-size: 0.9rem;
   }
   
+  /* Responsive Navigation */
   @media screen and (max-width: 768px) {
     .nav-links {
       flex-direction: column;
@@ -244,6 +246,7 @@
       display: block;
     }
   }
+  
   
   
   

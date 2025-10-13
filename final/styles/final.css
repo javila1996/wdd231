@@ -24,6 +24,11 @@
     line-height: 1.6;
   }
   
+  body.home-page {
+    background: var(--bg);
+  }
+  
+  /* Header & Navigation */
   header {
     display: flex;
     justify-content: space-between;
@@ -37,19 +42,23 @@
     height: 50px;
   }
   
-  nav ul {
+  .nav-links {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
+    align-items: center;
   }
   
-  nav a {
+  .nav-links li a {
     color: var(--bg);
     text-decoration: none;
     font-weight: 600;
+    transition: color 0.3s, border-bottom 0.3s;
   }
   
-  nav a.active {
+  .nav-links li a.active,
+  .nav-links li a:hover {
+    color: var(--accent1);
     border-bottom: 2px solid var(--accent1);
   }
   
@@ -62,10 +71,11 @@
     cursor: pointer;
   }
   
+  /* Hero Section */
   .hero {
     position: relative;
     width: 100%;
-    height: 70vh; /* adjust height as needed */
+    height: 70vh;
     overflow: hidden;
   }
   
@@ -131,17 +141,20 @@
     background: var(--accent2);
   }
   
-  .feature-grid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 2rem;
-  }
+  /* Features & Programs */
   .features h2 {
     text-align: center;
     font-family: var(--font-heading);
     font-size: 2rem;
     margin-bottom: 2rem;
+  }
+  
+  .feature-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 2rem;
+    justify-items: center;
   }
   
   .feature-grid article,
@@ -159,12 +172,21 @@
     margin-bottom: 0.5rem;
   }
   
+  /* Contact Form */
+  main h2 {
+    text-align: center;
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
   .contact-form {
     max-width: 500px;
-    margin: 2rem auto;
+    margin: 0 auto 2rem auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 0 1rem;
   }
   
   .contact-form label {
@@ -179,23 +201,21 @@
     border-radius: 5px;
     font-family: var(--font-body);
   }
-  main h2 {
-    text-align: center;
-    font-family: var(--font-heading);
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  
+  .contact-form button {
+    align-self: center;
+    padding: 0.75rem 1.5rem;
+    background: var(--accent1);
+    color: var(--bg);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background 0.3s;
   }
   
-  .contact-form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 0 1rem;
-  }
-  .contact-form button {
-    align-self: start;
+  .contact-form button:hover {
+    background: var(--accent2);
   }
   
   footer {
@@ -207,20 +227,24 @@
   }
   
   @media screen and (max-width: 768px) {
-    nav ul {
+    .nav-links {
       flex-direction: column;
       display: none;
+      width: 100%;
+      background: var(--primary);
+      padding: 1rem 0;
+      gap: 1rem;
     }
   
-    nav ul.active {
+    .nav-links.active {
       display: flex;
-      gap: 1rem;
     }
   
     #menu-toggle {
       display: block;
     }
   }
+  
   
   
 

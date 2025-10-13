@@ -1,119 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BrightPath Child Care | Site Plan</title>
-  <link rel="icon" href="./images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Open+Sans&family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/final.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BrightPath Child Care offers nurturing, educational programs for infants to school-age children." />
+  <meta name="author" content="Josue Avila" />
+  <meta property="og:title" content="BrightPath Child Care" />
+  <meta property="og:description" content="Nurturing care and early education in a safe, joyful environment." />
+  <meta property="og:image" content="images/hero.webp" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles/final.css" />
+  <title>BrightPath Child Care | Home</title>
 </head>
-<body>
-
+<body class="home-page">
   <header>
-    <h1>BrightPath Child Care | Site Plan</h1>
     <div class="logo">
-        <img src="./images/favicon.ico" alt="BrightPath Child Care Logo">
-      </div>
+      <img src="images/logo.png" alt="BrightPath Child Care logo" />
+      <h1>BrightPath Child Care</h1>
+    </div>
+    <nav id="navbar">
+      <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="final.html" class="active">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Site Name</h2>
-      <p><strong>BrightPath Child Care</strong></p>
-      <p>This name was chosen because it conveys a sense of guidance, growth, and positive development for children. It represents a trustworthy and nurturing environment where children are supported on their learning journey.</p>
-      <p><strong>Optional domain:</strong> brightpathkids.org</p>
+    <section class="hero">
+      <img src="images/final-hero.webp" alt="Happy children playing" loading="lazy" />
+      <div class="hero-text">
+        <h2>Nurturing Bright Futures</h2>
+        <p>At BrightPath Child Care, we provide a safe, engaging, and loving environment that inspires learning and joy every day.</p>
+        <a href="programs.html" class="btn">Explore Our Programs</a>
+      </div>
     </section>
 
-    <section>
-      <h2>Site Purpose</h2>
-      <p>The website’s purpose is to inform families about the different child care programs offered at BrightPath Child Care, including <strong>preschool</strong>, <strong>before and after school care</strong>, and <strong>summer camps</strong>. The site will outline program details, curriculum highlights, and age group information. It will also include contact forms, enrollment details, and testimonials to help parents make informed decisions.</p>
-    </section>
-
-    <section>
-      <h2>Scenarios</h2>
-      <ul>
-        <li>What are the age requirements and schedules for your preschool program?</li>
-        <li>Do you offer transportation for before and after school care?</li>
-        <li>What kinds of activities are included in your summer camp program?</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Color Scheme</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Color</th>
-            <th>Hex Code</th>
-            <th>Usage</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><span class="color-sample primary"></span>Primary Blue</td>
-            <td>#0268B4</td>
-            <td>Used for headers, navigation bar, and call-to-action buttons.</td>
-          </tr>
-          <tr>
-            <td><span class="color-sample accent"></span>Accent Yellow</td>
-            <td>#FFD257</td>
-            <td>Used for highlights, icons, and buttons to give a warm, welcoming feel.</td>
-          </tr>
-          <tr>
-            <td><span class="color-sample background"></span>Soft Gray</td>
-            <td>#F5F5F5</td>
-            <td>Used for background areas to maintain readability and contrast.</td>
-          </tr>
-          <tr>
-            <td><span class="color-sample white"></span>White</td>
-            <td>#FFFFFF</td>
-            <td>Used for content sections and typography contrast.</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section>
-      <h2>Typography</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Font</th>
-            <th>Use</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="font-family:'Poppins', sans-serif;">Poppins</td>
-            <td>Used for headings and subheadings; modern, friendly, and readable.</td>
-          </tr>
-          <tr>
-            <td style="font-family:'Open Sans', sans-serif;">Open Sans</td>
-            <td>Used for body text; clean and highly legible on screens.</td>
-          </tr>
-          <tr>
-            <td style="font-family:'Pacifico', cursive;">Pacifico</td>
-            <td>Used sparingly for logo or call-to-action highlights to add personality and warmth.</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section>
-      <h2>Wireframe</h2>
-      <h3>Mobile Version</h3>
-      <img src="images/mobile-wireframe-final.webp" alt="mobile">
-      <h3>Desktop Version</h3>  
-      <img src="images/desktop-wireframe-final.webp" alt="desktop">
-      <p><em>Example: Mobile and Desktop layout diagrams showing navigation, hero section, and program cards.</em></p>
+    <section class="features">
+      <h2>Why Choose BrightPath?</h2>
+      <div class="feature-grid">
+        <article>
+          <h3>Qualified Teachers</h3>
+          <p>Our experienced educators foster curiosity, confidence, and creativity.</p>
+        </article>
+        <article>
+          <h3>Safe Environment</h3>
+          <p>We prioritize safety and comfort in every classroom and playground.</p>
+        </article>
+        <article>
+          <h3>Enriching Curriculum</h3>
+          <p>From infants to school-age children, we support growth through play and discovery.</p>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year"></span> BrightPath Child Care | Site Plan by Josue Avila</p>
+    <script type="module" src="scripts/final.js"></script>
   </footer>
 
-  <script src="scripts/siteplan.js"></script>
 </body>
 </html>

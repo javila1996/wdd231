@@ -1,0 +1,21 @@
+{
+    "programs": [
+      {"name": "Infant Care","description":"A nurturing environment for infants to grow and explore.","ageGroup":"6 weeks - 18 months","schedule":"Mon-Fri, 7am-5pm","image":"images/infant-care.webp"},
+      {"name": "Toddler Program","description":"Encouraging curiosity and learning through play.","ageGroup":"18 months - 3 years","schedule":"Mon-Fri, 7am-5pm","image":"images/toddler-care.webp"},
+      {"name": "Preschool Program","description":"Preparing children for kindergarten with fun educational activities.","ageGroup":"3 - 5 years","schedule":"Mon-Fri, 8am-5pm","image":"images/preschool.webp"},
+      {"name": "After School Care","description":"Supervised activities and homework help for school-age children.","ageGroup":"5 - 12 years","schedule":"Mon-Fri, 3pm-6pm","image":"images/after-school-care.webp"},
+      {"name": "Summer Camp","description":"Fun summer learning and field trips for all ages.","ageGroup":"3 - 12 years","schedule":"Mon-Fri, 7am-6pm","image":"images/summer-camp.webp"},
+      {"name": "STEM Program","description":"Hands-on science, technology, engineering, and math activities.","ageGroup":"5 - 12 years","schedule":"Mon-Fri, 9am-12pm","image":"images/stem.webp"},
+      {"name": "Art Enrichment","description":"Creative art and craft projects to foster imagination.","ageGroup":"3 - 12 years","schedule":"Mon-Fri, 1pm-3pm","image":"images/art-enrichment.webp"},
+      {"name": "Music Program","description":"Explore music, rhythm, and instruments.","ageGroup":"3 - 8 years","schedule":"Tue/Thu, 10am-11:30am","image":"images/music-program.webp"},
+      {"name": "Soccer Skills","description":"Develop coordination and teamwork through soccer.","ageGroup":"5 - 12 years","schedule":"Mon/Wed, 4pm-5pm","image":"images/soccer-skills.webp"},
+      {"name": "Reading Club","description":"Encourage literacy and love of books.","ageGroup":"4 - 12 years","schedule":"Mon-Fri, 2pm-3pm","image":"images/reading-club.webp"},
+      {"name": "Language Immersion","description":"Learn Spanish or French through interactive lessons.","ageGroup":"3 - 10 years","schedule":"Mon/Wed/Fri, 10am-11am","image":"images/language-immersion.webp"},
+      {"name": "Science Explorers","description":"Conduct experiments and explore the natural world.","ageGroup":"5 - 12 years","schedule":"Tue/Thu, 9am-12pm","image":"images/science-explorers.webp"},
+      {"name": "Yoga & Mindfulness","description":"Promote focus, balance, and relaxation through yoga.","ageGroup":"4 - 12 years","schedule":"Mon/Wed, 9am-10am","image":"images/yoga.webp"},
+      {"name": "Cooking Classes","description":"Teach kids healthy cooking and kitchen skills.","ageGroup":"6 - 12 years","schedule":"Fri, 2pm-4pm","image":"images/cooking-class.webp"},
+      {"name": "Drama & Theater","description":"Develop confidence and creativity through acting.","ageGroup":"5 - 12 years","schedule":"Tue/Thu, 3pm-4:30pm","image":"images/theater-class.webp"}
+    ]
+  }
+  
+    

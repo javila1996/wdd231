@@ -86,5 +86,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   
+  if (window.location.pathname.includes("thankyou.html")) {
+    const params = new URLSearchParams(window.location.search);
+    const detailsContainer = document.getElementById("submission-details");
   
+    if (params && detailsContainer) {
+      const name = params.get("name");
+      const email = params.get("email");
+      const phone = params.get("phone");
+      const location = params.get("location");
+      const message = params.get("message");
+  
+      detailsContainer.innerHTML = `
+        <h3>Your Submitted Details:</h3>
+        <p><strong>Name:</strong> ${name || "Not provided"}</p>
+        <p><strong>Email:</strong> ${email || "Not provided"}</p>
+        <p><strong>Phone:</strong> ${phone || "Not provided"}</p>
+        <p><strong>Location:</strong> ${location || "Not provided"}</p>
+        <p><strong>Message:</strong> ${message || "Not provided"}</p>
+      `;
+    }
+  }
+
   

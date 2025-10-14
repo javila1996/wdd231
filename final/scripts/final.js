@@ -13,22 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     // -----------------------------
-    // Footer
-    // -----------------------------
-    const footer = document.querySelector("footer");
-    if (footer) {
-      footer.innerHTML = `
-        <address>
-          BrightPath Child Care<br>
-          123 Main St, Utah<br>
-          Phone: (555) 555-5555
-        </address>
-        <p>&copy; 2025 BrightPath Child Care | Created by Josue Avila</p>
-        <p id="lastModified">Last Modified: ${document.lastModified}</p>
-      `;
-    }
-  
-    // -----------------------------
     // Programs Page
     // -----------------------------
     if (document.body.classList.contains("programs-page")) {
@@ -129,4 +113,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   
-  
+  // -----------------------------
+// Footer
+// -----------------------------
+const footer = document.querySelector("footer");
+if (footer) {
+  footer.innerHTML = `
+    <address>
+      BrightPath Child Care<br>
+      123 Main St, Utah<br>
+      Phone: (555) 555-5555
+    </address>
+    <p>&copy; 2025 BrightPath Child Care | Created by Josue Avila</p>
+    <a href="https://youtu.be/xWq0xAE2gMg" target="_blank" rel="noopener noreferrer" class="youtube-link">
+      <img src="images/youtube-logo.png" alt="Watch Video on YouTube" width="30" height="30">
+    </a>
+    <p id="lastModified">Last Modified: ${document.lastModified}</p>
+  `;
+}
